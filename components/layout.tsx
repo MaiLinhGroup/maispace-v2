@@ -13,7 +13,7 @@ export default function Layout({
   home?: boolean
 }) {
   return (
-    <div className="flex flex-col items-center">
+    <div className="max-w-xl px-4 mt-12 mx-auto mb-24">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -40,7 +40,7 @@ export default function Layout({
               width={144}
               alt={name}
             />
-            <h1 className="text-4xl font-extrabold tracking-tighter my-4">{name}</h1>
+            <h1 className="text-4xl font-bold tracking-tighter my-4">{name}</h1>
           </>
         ) : (
           <>
