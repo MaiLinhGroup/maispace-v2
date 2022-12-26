@@ -68,6 +68,11 @@ export default function Layout({
           <Link href="/" className="hover:underline underline-offset-auto text-blue-600 hover:text-blue-800 visited:text-purple-600">← Back to home</Link>
         </div>
       )}
+      <footer className='mt-8 py-4'>
+        <div className='container mx-auto flex justify-center'>
+          &copy; MaiSpace 2022
+        </div>
+      </footer>
     </div>
   )
 }

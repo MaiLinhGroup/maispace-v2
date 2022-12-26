@@ -22,7 +22,7 @@ export default function Home({
       <section className="text-lg">
         <p>Moin and welcome to MaiSpace, my personal blog and portfolio website.</p>
         <p>
-          I'm Mai Linh and I'm a software engineer.
+          I&#39;m Mai Linh and I&#39;m a software engineer.
         </p>
       </section>
       <section className="text-lg padding-top">
