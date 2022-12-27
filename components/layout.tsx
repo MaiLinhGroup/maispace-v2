@@ -65,7 +65,7 @@ export default function Layout({
       <main>{children}</main>
       {!home && (
         <div className="mt-12">
-          <Link href="/" className="hover:underline underline-offset-auto text-blue-600 hover:text-blue-800 visited:text-purple-600">← Back to home</Link>
+          <Link href="/" className="text-blue-600 hover:text-blue-800">← Back to home</Link>
         </div>
       )}
       <footer className='mt-8 py-4'>
