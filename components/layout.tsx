@@ -70,7 +70,7 @@ export default function Layout({
       )}
       <footer className='mt-8 py-4'>
         <div className='container mx-auto flex justify-center'>
-          &copy; MaiSpace 2022
+          &copy; MaiSpace {(new Date().getFullYear())}
         </div>
       </footer>
     </div>
