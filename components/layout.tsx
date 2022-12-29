@@ -70,7 +70,10 @@ export default function Layout({
       )}
       <footer className='mt-8 py-4'>
         <div className='container mx-auto flex justify-center'>
-          &copy; MaiSpace {(new Date().getFullYear())}
+          MaiSpace &copy; {(new Date().getFullYear())} by MaiLinhGroup is licensed under&nbsp;
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" className="text-blue-600 hover:text-blue-800">
+              CC BY-SA 4.0
+          </a>
         </div>
       </footer>
     </div>
