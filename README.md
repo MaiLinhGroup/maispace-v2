@@ -7,7 +7,7 @@ This is the source code for my personal blog and portfolio website registered un
 ### Prerequisites 🧰
 
 - React framework https://nextjs.org/
-- Types https://www.typescriptlang.org/
+- TypeScript https://www.typescriptlang.org/
 - CSS styling https://tailwindcss.com/
 - Linting warning and errors https://eslint.org/
 - Code formatting https://prettier.io/
