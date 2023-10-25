@@ -1,16 +1,16 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Link from 'next/link'
+import Head from "next/head";
+// import Image from 'next/image'
+import Link from "next/link";
 
-const name = 'Mai Linh Nguyen'
-export const siteTitle = 'Mai Next.js Space'
+const name = "Mai Linh Nguyen";
+export const siteTitle = "Mai Next.js Space";
 
 export default function Layout({
   children,
-  home
+  home,
 }: {
-  children: React.ReactNode
-  home?: boolean
+  children: React.ReactNode;
+  home?: boolean;
 }) {
   return (
     <div className="max-w-xl px-4 mt-12 mx-auto mb-24">
@@ -32,8 +32,7 @@ export default function Layout({
       <header className="flex flex-col items-center">
         {home ? (
           <>
-            <Image
-              priority
+            <img
               src="/images/profile.jpg"
               className="rounded-full"
               height={144}
@@ -45,8 +44,7 @@ export default function Layout({
         ) : (
           <>
             <Link href="/">
-              <Image
-                priority
+              <img
                 src="/images/profile.jpg"
                 className="rounded-full"
                 height={108}
@@ -65,17 +63,23 @@ export default function Layout({
       <main>{children}</main>
       {!home && (
         <div className="mt-12">
-          <Link href="/" className="text-blue-600 hover:text-blue-800">← Back to home</Link>
+          <Link href="/" className="text-blue-600 hover:text-blue-800">
+            ← Back to home
+          </Link>
         </div>
       )}
-      <footer className='mt-8 py-4'>
-        <div className='container mx-auto flex justify-center'>
-          MaiSpace &copy; {(new Date().getFullYear())} by MaiLinhGroup is licensed under&nbsp;
-          <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1" className="text-blue-600 hover:text-blue-800">
-              CC BY-SA 4.0
+      <footer className="mt-8 py-4">
+        <div className="container mx-auto flex justify-center">
+          MaiSpace &copy; {new Date().getFullYear()} by MaiLinhGroup is licensed
+          under&nbsp;
+          <a
+            href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
+            className="text-blue-600 hover:text-blue-800"
+          >
+            CC BY-SA 4.0
           </a>
         </div>
       </footer>
     </div>
-  )
+  );
 }
