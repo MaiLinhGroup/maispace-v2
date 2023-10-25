@@ -4,7 +4,7 @@ This is the source code for my personal blog and portfolio website registered un
 
 ---
 
-### Prerequisites
+### Prerequisites 🧰
 
 - React framework https://nextjs.org/
 - Types https://www.typescriptlang.org/
@@ -12,22 +12,26 @@ This is the source code for my personal blog and portfolio website registered un
 - Linting warning and errors https://eslint.org/
 - Code formatting https://prettier.io/
 
----
-
-### Getting started
-
 I follow the `Next.js` [Typescript tutorial](https://nextjs.org/learn/excel/typescript) and adapt their example [blog app](https://next-learn-starter.vercel.app/) to include `Tailwind CSS`. Furthermore, I migrate some blog content from the original [MaiSpace](https://github.com/MaiLinhGroup/MaiSpace).
 
 ---
 
-### What's Next(.js)?
+### Getting started 🚀
 
-- [ ] add navigation (e.g. `Blog`, `About Mai`)
-- [ ] list only the 2 recent blogs on `Home`
-- [ ] add my other social channels to header or footer or somewhere else
+```
+$ npm run dev
+
+> dev
+> next dev
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+...
+```
+
+This starts the development server on port `3000`. Open http://localhost:3000 from your browser to see if it's working! 👀
 
 ---
 
-### [LICENSE](LICENSE)
+### [LICENSE](LICENSE) ⚖️
 
-*MaiSpace © 2022 by MaiLinhGroup is licensed under CC BY-SA 4.0*
+_MaiSpace © 2022 by MaiLinhGroup is licensed under CC BY-SA 4.0_
