@@ -1,9 +1,8 @@
 import Head from "next/head";
-// import Image from 'next/image'
 import Link from "next/link";
 
-const name = "Mai Linh Nguyen";
-export const siteTitle = "Mai Next.js Space";
+const name = "Moin, I'm Mai Linh!";
+export const siteTitle = "MaiSpace";
 
 export default function Layout({
   children,
@@ -32,6 +31,7 @@ export default function Layout({
       <header className="flex flex-col items-center">
         {home ? (
           <>
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/images/profile.jpg"
               className="rounded-full"
@@ -44,6 +44,7 @@ export default function Layout({
         ) : (
           <>
             <Link href="/">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/profile.jpg"
                 className="rounded-full"
