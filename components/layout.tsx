@@ -1,7 +1,8 @@
 import Head from "next/head";
-import Link from "next/link";
+import Header from "./header";
+import Footer from "./footer";
+import { useEffect, useState } from "react";
 
-const name = "Moin, I'm Mai Linh!";
 export const siteTitle = "MaiSpace";
 
 export default function Layout({
@@ -11,8 +12,20 @@ export default function Layout({
   children: React.ReactNode;
   home?: boolean;
 }) {
+  const [showButton, setShowButton] = useState(false);
+  useEffect(() => {
+    const handleScrollToTopVisibility = () => {
+      window.innerHeight > document.body.clientHeight + 100
+        ? setShowButton(false)
+        : setShowButton(true);
+    };
+    window.addEventListener("scroll", handleScrollToTopVisibility);
+    return () => {
+      window.removeEventListener("scroll", handleScrollToTopVisibility);
+    };
+  });
   return (
-    <div className="max-w-xl px-4 mt-12 mx-auto mb-24">
+    <div className="max-w-xl px-4 mx-auto mb-24">
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -28,59 +41,27 @@ export default function Layout({
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className="flex flex-col items-center">
-        {home ? (
-          <>
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/images/profile.jpg"
-              className="rounded-full"
-              height={144}
-              width={144}
-              alt={name}
-            />
-            <h1 className="text-4xl font-bold tracking-tighter my-4">{name}</h1>
-          </>
-        ) : (
-          <>
-            <Link href="/">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/images/profile.jpg"
-                className="rounded-full"
-                height={108}
-                width={108}
-                alt={name}
-              />
-            </Link>
-            <h2 className="text-2xl font-bold tracking-tighter my-4">
-              <Link href="/" className="text-inherit">
-                {name}
-              </Link>
-            </h2>
-          </>
-        )}
-      </header>
+      <Header home={home} />
       <main>{children}</main>
-      {!home && (
-        <div className="mt-12">
-          <Link href="/" className="text-blue-600 hover:text-blue-800">
-            ← Back to home
-          </Link>
+      {showButton && !home && (
+        <div className="mt-12 flex flex-col items-center">
+          <button
+            className="text-blue-600 hover:text-blue-800"
+            type="button"
+            onClick={handleScrollToTop}
+          >
+            Back to top
+          </button>
         </div>
       )}
-      <footer className="mt-8 py-4">
-        <div className="container mx-auto flex justify-center">
-          MaiSpace &copy; {new Date().getFullYear()} by MaiLinhGroup is licensed
-          under&nbsp;
-          <a
-            href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1"
-            className="text-blue-600 hover:text-blue-800"
-          >
-            CC BY-SA 4.0
-          </a>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
+
+const handleScrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+};
