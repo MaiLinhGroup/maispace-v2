@@ -35,8 +35,7 @@ export default function Layout({
         <meta name="author" content="Chubby Chopstix"></meta>
         <meta
           name="description"
-          content="I'm excited to have you here on my personal blog and
-          portfolio website."
+          content="Explore my diverse portfolio and the musings shared on my personal blog. "
         />
         <meta
           name="keywords"
@@ -44,7 +43,7 @@ export default function Layout({
         ></meta>
         <meta
           property="og:image"
-          content="https://www.mailinh.cc/images/profile.jpg"
+          content="https://www.mailinh.cc/images/og_image_retouch.jpg"
         />
         <meta name="og:title" content={siteTitle} />
         <meta property="og:type" content="website" />
