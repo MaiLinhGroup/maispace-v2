@@ -3,6 +3,9 @@ import { getData } from "@lib/data";
 import { GetStaticProps } from "next";
 import Head from "next/head";
 
+//full path data/something-about-me.md
+const id = "something-about-me";
+
 export default function About({
   data,
 }: {
@@ -30,7 +33,7 @@ export default function About({
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const data = await getData("about");
+  const data = await getData(id);
   return {
     props: { data },
   };

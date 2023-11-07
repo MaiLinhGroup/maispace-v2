@@ -2,7 +2,7 @@ import Layout from "@components/layout";
 import { GetStaticProps } from "next";
 import Date from "@components/date";
 import Link from "next/link";
-import { getSortedPostsData } from "@lib/posts";
+import { getSortedPostsData } from "@lib/data";
 
 export default function PostList({
   allPostsData,
