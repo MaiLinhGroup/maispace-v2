@@ -50,7 +50,7 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <Header home={home} />
-      <main>{children}</main>
+      <main className="px-8">{children}</main>
       {showButton && !home && (
         <div className="mt-12 flex flex-col items-center">
           <button

@@ -10,10 +10,13 @@ export default function Home() {
       <section className="text-lg">
         <p>
           This is MaiSpace, where technology and creativity converge!
-          <br /> Explore my diverse portfolio and the musings shared on my
-          personal blog.
-          <br /> I&#39;m looking forward to connecting with like-minded
-          individuals.
+          <br />
+          <br />
+          Explore my diverse portfolio and the musings shared on my personal
+          blog.
+          <br />
+          <br />
+          I&#39;m looking forward to connecting with like-minded individuals.
         </p>
       </section>
     </Layout>
