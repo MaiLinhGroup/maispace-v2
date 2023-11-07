@@ -26,6 +26,14 @@ export default function Header({ home }: { home?: boolean }) {
                   Posts
                 </Link>
               </li>
+              <li>
+                <Link
+                  className={`link ${pathname === "/about" ? "active" : ""}`}
+                  href="/about"
+                >
+                  About
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
