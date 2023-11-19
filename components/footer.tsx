@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="mt-8 py-4">
-      <div className="container mx-auto flex justify-center">
+      <div className="container mx-auto flex justify-center text-slate-900 dark:text-slate-50">
         MaiSpace &copy; {new Date().getFullYear()} by MaiLinhGroup is licensed
         under&nbsp;
         <a

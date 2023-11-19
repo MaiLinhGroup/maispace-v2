@@ -22,7 +22,7 @@ export default function PostList({
                 {title}
               </Link>
               <br />
-              <small className="text-neutral-500">
+              <small className="text-slate-800 dark:text-slate-400">
                 <Date dateString={date} />
               </small>
             </li>

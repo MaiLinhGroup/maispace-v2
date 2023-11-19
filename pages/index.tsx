@@ -8,7 +8,7 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className="text-lg">
-        <p>
+        <p className="text-slate-800 dark:text-slate-400">
           This is MaiSpace, where technology and creativity converge!
           <br />
           <br />

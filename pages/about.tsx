@@ -20,11 +20,11 @@ export default function About({
         <title>{data.title}</title>
       </Head>
       <article>
-        <h1 className="text-2xl font-extrabold tracking-tighter my-4">
+        <h1 className="text-2xl font-extrabold tracking-tighter my-4 text-slate-900 dark:text-slate-50">
           {data.title}
         </h1>
         <div
-          className="prose prose-stone prose-lg"
+          className="prose prose-stone prose-lg text-slate-800 dark:text-slate-400"
           dangerouslySetInnerHTML={{ __html: data.contentHtml }}
         />
       </article>
