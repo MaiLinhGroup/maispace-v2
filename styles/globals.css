@@ -3,6 +3,6 @@
 @tailwind utilities;
 @layer base {
   body {
-    @apply bg-white dark:bg-slate-800;
+    @apply bg-white dark:bg-gray-900;
   }
 }

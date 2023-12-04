@@ -24,7 +24,7 @@ export default function About({
           {data.title}
         </h1>
         <div
-          className="prose prose-stone prose-lg text-slate-800 dark:text-slate-400"
+          className="prose prose-stone prose-lg dark:prose-invert text-slate-800 dark:text-slate-400"
           dangerouslySetInnerHTML={{ __html: data.contentHtml }}
         />
       </article>

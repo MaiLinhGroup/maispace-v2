@@ -26,7 +26,7 @@ export default function Post({
           <Date dateString={postData.date} />
         </div>
         <div
-          className="prose prose-stone prose-lg text-slate-800 dark:text-slate-400"
+          className="prose prose-stone prose-lg dark:prose-invert text-slate-800 dark:text-slate-400"
           dangerouslySetInnerHTML={{ __html: postData.contentHtml }}
         />
       </article>
