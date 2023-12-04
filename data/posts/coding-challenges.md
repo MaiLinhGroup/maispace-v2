@@ -16,7 +16,7 @@ nor legal.
 Yet, with every line of code written or omitted, and each project completed, I
 carry the invaluable knowledge and insights gained along the way. While code
 alone showcases my coding ability, I believe it's a _necessary but not sufficient
-condition_ of a Software Engineer. Instead, it's the knowledge and insights acquired
+condition_ of Software Engineering. Instead, it's the knowledge and insights acquired
 during projects that shape my CV and interviews with prospective clients and employers.
 
 Admittedly, the absence of real-life code to back my expertise sometimes triggers
@@ -30,4 +30,4 @@ If you haven't already, I invite you to explore my
 [GitHub](https://github.com/MaiLinhGroup?tab=repositories&q=&type=public&language=&sort=) profile,
 where these repositories are now publicly accessible!
 
-![GitHub MaiLinhGroup](/public/images/samoyed_dog_riding_a_rocket_in_space.png)
+![GitHub MaiLinhGroup](/images/samoyed_dog_riding_a_rocket_in_space.png)
