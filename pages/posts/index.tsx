@@ -11,6 +11,9 @@ export default function PostList({
 }) {
   return (
     <Layout>
+      <h1 className="text-2xl font-extrabold tracking-tighter my-4 text-slate-900 dark:text-slate-50">
+        Posts, tutorials, documentation, and everything else.
+      </h1>
       <section className="text-lg padding-top">
         <ul className="list-none">
           {allPostsData.map(({ id, date, title }) => (
