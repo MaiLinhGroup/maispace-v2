@@ -13,4 +13,4 @@ At first glance, the job title piqued my interest. Yet, upon delving into the de
 
 In the IT sector, many of us who chose freelancing were highly sought-after employees and remain so. We aren't former employees who fell short; rather, we're passionate freelancers by choice.
 
-_\*Source: "Freelancer Backend Developer(m/w/d) (Remote)" job here on LinkedIn's job board_
+_\*Source: position "Freelancer Backend Developer(m/w/d) (Remote)" on LinkedIn's job board_
