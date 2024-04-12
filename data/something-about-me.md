@@ -17,4 +17,6 @@ Other social accounts:
 
 🥢 TikTok [@chubbychopstix](https://tiktok.com/@chubbychopstix)
 
-🕸 Twitter [@MaiLinhGoNguyen](https://twitter.com/MaiLinhGoNguyen)
+🧵 Threads [@mle_ng](https://www.threads.net/@mle_ng)
+
+🤖 Twitter [@MaiLinhGoNguyen](https://twitter.com/MaiLinhGoNguyen)
