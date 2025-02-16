@@ -14,9 +14,3 @@ I draw inspiration for my blog from a variety of sources and don't limit it to t
 Other social accounts:
 
 💻 GitHub [@MaiLinhGroup](https://github.com/MaiLinhGroup)
-
-🥢 TikTok [@chubbychopstix](https://tiktok.com/@chubbychopstix)
-
-🧵 Threads [@mle_ng](https://www.threads.net/@mle_ng)
-
-🤖 Twitter [@MaiLinhGoNguyen](https://twitter.com/MaiLinhGoNguyen)
