@@ -10,7 +10,6 @@ export default function App({ Component, pageProps }: AppProps) {
     <ThemeProvider attribute="class">
       <Script 
         data-goatcounter={`https://${process.env.NEXT_PUBLIC_GOATCOUNTER_CODE}.goatcounter.com/count`}
-        data-goatcounter-settings='{"allow_local": true}'
         async src="//gc.zgo.at/count.js" 
       />
       <Component {...pageProps} />
