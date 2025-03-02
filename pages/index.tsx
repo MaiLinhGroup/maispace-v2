@@ -9,14 +9,13 @@ export default function Home() {
       </Head>
       <section className="text-lg">
         <p className="text-slate-800 dark:text-slate-400">
-          This is MaiSpace, where technology and creativity converge!
+          This is <strong>MaiSpace</strong>, my personal blog where I&#39;m sharing my musings on various topics covering everything I encounter while navigating through life.
           <br />
           <br />
-          Explore my diverse portfolio and the musings shared on my personal
-          blog.
+          I also use it to practice and to develope a habit of writing and to document my journey as a software engineer.
           <br />
           <br />
-          I&#39;m looking forward to connecting with like-minded individuals.
+          Thank you for visiting and I hope you find something insightful!
         </p>
       </section>
     </Layout>
