@@ -1,0 +1,10 @@
+---
+title: "GoatCounter for Blog Analytics"
+date: "2025-03-09"
+---
+
+I recently added [GoatCounter](https://www.goatcounter.com/), an open source web analytics platform. I got the idea from reading one of my favourite blogs [how.wtf](https://how.wtf/). It's not that I necessarily needed to add any analytics to my website. There was no Google Analytics that needed to be replaced, and the platform I'm using ([Cloudflare](https://www.cloudflare.com/en-gb/web-analytics/)) to deploy this website actually offers me basic but free website analytics out of the box.
+
+Why did I still spend a Saturday adding GoatCounter to my website? The truth is that I felt guilty that I haven't written any new posts for my personal blog for a while and at the same time have no exciting new ideas for a post. This struggle is quite apparent if you look at the timestamps and number of my blog posts. But I have this personal blog to practice, and if I have no good ideas myself, then I check blogs from others and challenge myself to implement their ideas. That helps me to get going, and along the way I can learn new things.
+
+Whilst adding GoatCounter, it wasn't just a matter of downloading it and adding a script as described in their documentation. I had to research e.g. how to [bundle environment variables for my browser](https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables#bundling-environment-variables-for-the-browser) and [how or where in Cloudflare](https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables#bundling-environment-variables-for-the-browser) to add them so that they would be available to my deployment. The solutions were easy enough, but I wouldn't have known them off the top of my head, and I still wouldn't if I hadn't chosen a simple project like adding GoatCounter.
