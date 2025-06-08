@@ -3,7 +3,7 @@ import { usePathname } from "next/navigation";
 import ThemeSwitch from "./themeswitch";
 
 export default function Header({ home }: { home?: boolean }) {
-  const name = "Moin, I'm Mai Linh!";
+  const name = "Moin, I am Mai Linh!";
   const pathname = usePathname();
   return (
     <header className="flex flex-col items-center">
